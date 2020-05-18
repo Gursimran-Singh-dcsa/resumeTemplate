@@ -1,3 +1,7 @@
 {
-  "headerText": "Create Your Resume Here"
+  "headerText": "Create Your Resume Here",
+  "headerNamePlaceholder": "Please Enter Your Name",
+  "phoneSpanPlaceholder": "contact number",
+  "nameSpanPlaceholder": "full name",
+  "emailSpanPlaceholder": "email ID"
 }
