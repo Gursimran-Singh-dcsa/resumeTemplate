@@ -1,6 +1,51 @@
+body{
+  margin: none;
+}
 .siteHeader{
   font-size: xx-large;
   margin: auto;
   text-align: center;
   color: darkblue;
+  margin-bottom: 2%;
+}
+
+.template{
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+}
+.basic {
+  display: flex;
+  flex-direction: column;
+}
+.nameHeader > input {
+  border: none;
+  text-align: right;
+  font-weight: bolder;
+  width: auto;
+  font-size: larger;
+}
+.nameHeader {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: right;
+}
+
+.noBorder{
+  border:none;
+  outline: none;
+}
+
+.basicInfo {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+}
+.basicInfo > input {
+  border: none;
+  text-align: right;
+  width: 30%;
+  border:none;
+  outline: none;
 }
