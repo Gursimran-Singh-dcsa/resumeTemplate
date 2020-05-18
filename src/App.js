@@ -1,8 +1,14 @@
 import React from 'react';
 
+import Header from './Header';
+
 function App() {
   return (
-    <div>Start task</div>
+    <div>
+    <Header />
+    {/* <Template /> */}
+    {/* <Actions /> */}
+    </div>
   );
 }
 
