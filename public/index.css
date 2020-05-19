@@ -49,3 +49,22 @@ body{
   border:none;
   outline: none;
 }
+
+.modular {
+  display: flex;
+  margin-top: 3%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px solid red;
+  flex-direction: column;
+}
+.suggestMe {
+  color: red;
+  cursor: pointer;
+}
+.textarea{
+  width: 100%;
+  border: inherit;
+  border:none;
+  outline: none;
+}
