@@ -49,10 +49,10 @@ const Tabular = (props) => {
     props.onChange({...props.info, addMore: !props.info.addMore})
   }
   return (
-    <div>
+    <div className="covering">
       <div className="fieldheading">{props.info.name}</div>
       <GetTable rows={(props.info.value)} headings={props.info.headings} addmore={props.info.addMore} onChange={props.onChange}/>
-      <div><span id="addmore" onClick={handleAddMore}>+Addmore? </span></div>
+      {!props.info.addMore ? <div><span id="addmore" onClick={handleAddMore}>+Addmore? </span></div> : ''}
     </div>
   )
 }
