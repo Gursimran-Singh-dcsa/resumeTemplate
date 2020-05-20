@@ -63,8 +63,26 @@ body{
   cursor: pointer;
 }
 .textarea{
-  width: 100%;
+  max-width: inherit;
   border: inherit;
   border:none;
   outline: none;
+  resize: vertical;
+}
+
+.covering {
+  display: flex;
+  flex-direction: column;
+}
+.fieldheading {
+  border: 1px solid black;
+  color: white;
+  background-color: grey;
+  font-weight: bolder;
+  padding-left: 4px;
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+.fieldheading >textarea {
+  padding: 5px;
 }
