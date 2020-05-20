@@ -52,7 +52,7 @@ const Tabular = (props) => {
     <div className="covering">
       <div className="fieldheading">{props.info.name}</div>
       <GetTable rows={(props.info.value)} headings={props.info.headings} addmore={props.info.addMore} onChange={props.onChange}/>
-      {!props.info.addMore ? <div><span id="addmore" onClick={handleAddMore}>+Addmore? </span></div> : ''}
+      {!props.info.addMore ? <div><span className="addmore" onClick={handleAddMore}>+Addmore? </span></div> : ''}
     </div>
   )
 }
