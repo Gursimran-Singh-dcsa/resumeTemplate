@@ -104,7 +104,7 @@ tr, th{
 .admorerow{
   transition: all 2s ease-in 2s;
 }
-.admorerow > td > input {
+.admorerow > td > input, .inputdiv > input {
   border: none;
   text-align: center;
   outline: none;
@@ -112,4 +112,30 @@ tr, th{
 }
 #addmore {
   cursor: pointer;
+}
+.label{
+  font-weight: bold;
+}
+.personalrender{
+  display: flex;
+  flex-direction: column;
+}
+.label{
+  float: left;
+  width: 30%;
+}
+.span{
+  float: left;
+  width: 10%;
+}
+.inputdiv > input {
+  border-bottom: 0.025px solid  black;
+  text-align: left;
+}
+.inputdiv > input::placeholder {
+  color: gray;
+}
+.nounderline > input {
+  border: none;
+  outline: none;
 }
