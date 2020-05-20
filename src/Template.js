@@ -1,14 +1,15 @@
 import React from 'react';
 
 import Basic from './Basic';
-import Modular from  './Modular.js';
+import Modular from  './Modular';
+import Personalprofile from './Personalprofile';
 
 const Template = () => {
   return(
     <div className='template'>
       <Basic />
       <Modular />
-      {/* <Allinfo /> */}
+      <Personalprofile />
     </div>
   )
 }
