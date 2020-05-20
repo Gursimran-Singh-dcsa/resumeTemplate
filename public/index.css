@@ -23,7 +23,6 @@ body{
   border: none;
   text-align: right;
   font-weight: bolder;
-  width: auto;
   font-size: larger;
 }
 .nameHeader {
@@ -42,7 +41,7 @@ body{
   flex-direction: column;
   align-content: space-around;
 }
-.basicInfo > input {
+.basicInfo > input{
   border: none;
   text-align: right;
   width: 30%;
@@ -63,7 +62,6 @@ body{
   cursor: pointer;
 }
 .textarea{
-  max-width: inherit;
   border: inherit;
   border:none;
   outline: none;
@@ -85,4 +83,31 @@ body{
 }
 .fieldheading >textarea {
   padding: 5px;
+}
+.table {
+  justify-content: center;
+  margin: auto;
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: inherit;
+}
+td, th{
+  border-left: 1px solid black;
+  text-align: center;
+  max-width: 5%;
+}
+td:first-of-type, th:first-of-type {
+  border-left: none;
+}
+tr, th{
+  border-bottom: 1px solid black;
+}
+.admorerow{
+  transition: all 2s ease-in 2s;
+}
+.admorerow > td > input {
+  border: none;
+  text-align: center;
+  outline: none;
+  width: max-content;
 }
