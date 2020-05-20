@@ -110,7 +110,7 @@ tr, th{
   outline: none;
   width: max-content;
 }
-#addmore {
+.addmore {
   cursor: pointer;
 }
 .label{
@@ -138,4 +138,13 @@ tr, th{
 .nounderline > input {
   border: none;
   outline: none;
+}
+.actions{
+  padding: 5px;
+  text-align: center;
+}
+.actions > button {
+  font-size: larger;
+  font-weight: bolder;
+  cursor: pointer;
 }

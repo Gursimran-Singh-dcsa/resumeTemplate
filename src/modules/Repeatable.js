@@ -25,7 +25,7 @@ const Repeatable = (props) => {
       })}
       {props.info.addMore ? <div><textarea className="textarea" style={{border: `1px solid black`, width: `100%`}} onChange={addInput} /><br/><button onClick={savedata}>save</button></div> : ''}
       </ul>
-      {!props.info.addMore ? <div><span id="addmore" onClick={handleAddMore}>+Addmore? </span></div> : ''}
+      {!props.info.addMore ? <div><span className="addmore" onClick={handleAddMore}>+Addmore? </span></div> : ''}
     </div>
   )
 }
