@@ -6,7 +6,7 @@ import Personalprofile from './Personalprofile';
 
 const Template = () => {
   return(
-    <div className='template'>
+    <div className='template' id="template">
       <Basic />
       <Modular />
       <Personalprofile />
